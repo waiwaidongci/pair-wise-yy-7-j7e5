@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": "MR-001",
+      "code": "MR-001",
+      "shipType": "福船",
+      "scale": "1:48",
+      "mastCount": 3,
+      "riggingMaterial": "蜡线",
+      "owner": "周宁",
+      "dueDate": "2026-06-28",
+      "status": "待转运",
+      "logs": [
+        {
+          "at": "2026-06-12T00:00:00.000Z",
+          "step": "建档",
+          "note": "创建模型"
+        }
+      ]
+    }
+  ],
+  "orders": []
+}
