@@ -1,0 +1,92 @@
+{
+  "models": [
+    {
+      "id": "MDL-001",
+      "code": "FC-048",
+      "shipType": "福船",
+      "scale": "1:48",
+      "mastCount": 3,
+      "owner": "周宁",
+      "spec": {
+        "ropeDiameter": "0.8mm",
+        "winding": "右旋",
+        "tension": "2.5N"
+      },
+      "logs": [
+        {
+          "at": "2026-09-01T08:00:00.000Z",
+          "step": "建档",
+          "note": "模型入库登记"
+        }
+      ]
+    },
+    {
+      "id": "MDL-002",
+      "code": "SC-036",
+      "shipType": "沙船",
+      "scale": "1:36",
+      "mastCount": 2,
+      "owner": "林澈",
+      "spec": {
+        "ropeDiameter": "0.6mm",
+        "winding": "左旋",
+        "tension": "1.8N"
+      },
+      "logs": [
+        {
+          "at": "2026-09-02T08:00:00.000Z",
+          "step": "建档",
+          "note": "模型入库登记"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "TO-20260910-001",
+      "modelId": "MDL-001",
+      "version": 1,
+      "status": "开放",
+      "createdAt": "2026-09-10T01:30:00.000Z",
+      "registration": {
+        "supports": [
+          "前桅左A",
+          "前桅右A",
+          "主桅左A",
+          "主桅右A",
+          "后桅左A",
+          "后桅右A"
+        ],
+        "locks": [
+          "LK-01",
+          "LK-02"
+        ],
+        "responsible": "周宁"
+      },
+      "originalSpec": {
+        "ropeDiameter": "0.8mm",
+        "winding": "右旋",
+        "tension": "2.5N"
+      },
+      "operations": [
+        {
+          "type": "封帆",
+          "by": "周宁",
+          "at": "2026-09-10T02:10:00.000Z"
+        }
+      ],
+      "reset": null,
+      "rechecks": [],
+      "lastCompare": null,
+      "delivery": null,
+      "versions": [],
+      "logs": [
+        {
+          "at": "2026-09-10T01:30:00.000Z",
+          "step": "开单",
+          "note": "登记支撑位 6 个、锁具 2 把，责任人 周宁"
+        }
+      ]
+    }
+  ]
+}
